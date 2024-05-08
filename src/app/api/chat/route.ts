@@ -72,6 +72,7 @@ export async function POST(req: Request) {
         "/location/country": "Syria",
         "/location/city": "Damascus",
         "/phone_number": "+963940472324",
+        "/study": "IT Engineering",
         "/age": "22",
         "/occupation/title": "Web Developer",
         "/occupation/specialization": "Next.js",
@@ -106,6 +107,30 @@ export async function POST(req: Request) {
           "https://linkedin.com/in/wael-tarabishi-95b12825a",
         "/social_media/instagram": "https://www.instagram.com/wael_tarabishi/",
         "/social_media/facebook": "https://www.facebook.com/wael.tarabishi.7/",
+        "/personal_statement":
+          "As a passionate and driven web developer, I am committed to creating innovative and user-friendly digital experiences. With a strong foundation in modern web technologies and a keen eye for design, I strive to deliver high-quality solutions that solve real-world problems. My goal is to continuously expand my skills and contribute to the growth of the tech industry.",
+        "/career_goals":
+          "My career aspirations are to become a lead web developer, where I can leverage my expertise in Next.js and other cutting-edge technologies to build scalable and performant applications. I am particularly interested in exploring opportunities in the e-commerce or fintech sectors, where I can apply my skills to create impactful solutions.",
+        "/education_details": {
+          courses: ["Data Structures", "Algorithms", "Web Development"],
+          gpa: "High",
+        },
+        "/work_experience": {
+          description:
+            "While I am currently seeking job opportunities, I have gained valuable experience through personal projects and freelance work. with a focus on implementing responsive design and optimizing performance. These experiences have allowed me to develop a deep understanding of the software development lifecycle and the ability to work effectively in a team environment.",
+          projects: [
+            {
+              name: "Full-stack websites with React and Next.js",
+              description:
+                "Developed responsive and performant web applications using React and Next.js.",
+            },
+            {
+              name: "MERN stack applications",
+              description:
+                "Built full-stack applications using the MERN (MongoDB, Express, React, Node.js) stack.",
+            },
+          ],
+        },
       }),
     ]);
 
