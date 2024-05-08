@@ -1,0 +1,39 @@
+{
+  "/name": "Wael Tarabishi",
+  "/location/country": "Syria",
+  "/location/city": "Damascus",
+  "/phone_number": "+963940472324",
+
+  "/occupation/title": "Web Developer",
+  "/occupation/specialization": "Next.js",
+  "/education/institution": "Arab International University",
+  "/education/degree": "Currently pursuing",
+  "/education/years_remaining": 2,
+  "/employment": "Currently seeking job opportunities",
+  "/skills": [
+    "JavaScript",
+    "TypeScript",
+    "HTML",
+    "CSS",
+    "Tailwind CSS",
+    "React",
+    "Next.js",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "SQL",
+    "Git",
+    "Prisma",
+    "RESTful APIs",
+    "Responsive Web Design"
+  ],
+  "/projects": [
+    "Full-stack websites with React and Next.js",
+    "MERN stack applications"
+  ],
+  "/interests": ["Sports", "Coding"],
+  "/social_media/github": "https://github.com/WaelTarabishi",
+  "/social_media/linkedin": "https://linkedin.com/in/wael-tarabishi-95b12825a",
+  "/social_media/instagram": "https://www.instagram.com/wael_tarabishi/",
+  "/social_media/facebook": "https://www.facebook.com/wael.tarabishi.7/"
+}
