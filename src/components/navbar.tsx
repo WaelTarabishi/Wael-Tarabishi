@@ -46,11 +46,12 @@ const Navbar = () => {
           <SheetContent>
             <div className="w-full h-full flex gap-9   flex-col items-center justify-center text-[28px]">
               {navRoutes.map((route) => (
-                <div
+                <Link
+                  href={route.href}
                   key={route.label}
                   className="nav-link-mobile text-white font-primary">
                   {route.label}
-                </div>
+                </Link>
               ))}
             </div>
           </SheetContent>
