@@ -11,16 +11,16 @@ const Hero = () => {
       <div className="w-[80%] grid-cols-1 mx-auto grid lg:grid-cols-2 lg:gap-48 h-full gap-10 items-center justify-center text-center md:text-start">
         <div className="lg:mt-0 mt-20">
           <h1 className="text-[36px] md:text-[48px] text-white font-bold">
-            HI, I'M{" "}
+            HI, I&apos;M{" "}
             <span className="text-transparent  bg-clip-text bg-gradient-to-r from-grad-1-start to-grad-1-end">
               Wael
             </span>
           </h1>
           <TextEffect />
           <p className="text-zinc-500 text-[20px]">
-            I'm a 22-year-old web developer from Syria, specializing in Next.js
-            and React. Passionate about crafting engaging and intuitive user
-            experiences. Let's create something awesome together!
+            I&apos;m a 22-year-old web developer from Syria, specializing in
+            Next.js and React. Passionate about crafting engaging and intuitive
+            user experiences. Let&apos;s create something awesome together!
             <span role="img" aria-label="Rocket">
               🚀
             </span>
