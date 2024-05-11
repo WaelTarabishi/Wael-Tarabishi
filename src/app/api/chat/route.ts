@@ -71,7 +71,7 @@ export async function POST(req: Request) {
         "/name": "Wael Tarabishi",
         "/location/country": "Syria",
         "/location/city": "Damascus",
-        "/phone_number": "+963940472324",
+        "/number": "+963940472324",
         "/study": "IT Engineering",
         "/age": "22",
         "/occupation/title": "Web Developer",
